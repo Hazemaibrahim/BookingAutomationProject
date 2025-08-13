@@ -27,6 +27,31 @@ Maven (dependency management)
 
 Apache POI (Excel reading)
 
+BookingTestSuite
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── org
+│   │   │       └── pages
+│   │   │           ├── BasePage.java
+│   │   │           ├── HomePage.java
+│   │   │           ├── HotelDetailsPage.java
+│   │   │           ├── ReservationPage.java
+│   │   │           └── SearchResultsPage.java
+│   │   └── resources
+│   │       └── testdata.xlsx
+│
+│   ├── test
+│   │   └── java
+│   │       ├── dataprovider
+│   │       ├── tests
+│   │       │   ├── BaseTest.java
+│   │       │   └── BookingTest.java
+│   │       └── Utilities
+│   │           ├── DateUtilities.java
+│   │           └── ExcelDataProvider.java
+
+
 How to Run
 1- Clone the repository
 git clone https://github.com/YOUR_USERNAME/booking-automation.git
