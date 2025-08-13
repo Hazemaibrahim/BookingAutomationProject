@@ -29,9 +29,6 @@ Apache POI (Excel reading)
 
 How to Run
 1- Clone the repository
-bash
-Copy
-Edit
 git clone https://github.com/YOUR_USERNAME/booking-automation.git
 2-Open the project in IntelliJ IDEA
 Let Maven download dependencies automatically.
